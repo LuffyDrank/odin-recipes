@@ -90,6 +90,6 @@ img {
 }
 @media screen and (max-width: 800px) {
   .recipe-body, img, h1 {
-    width: 80vw;
+    width: 90vw;
   }
 }
