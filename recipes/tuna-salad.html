@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
   <style>
+  
   .border-list {
     padding-left:40px;
     background: rgb(102, 206, 71);
@@ -22,6 +23,8 @@
   }
 
   .recipe-body {
+    display: block;
+    margin: auto;
     box-sizing: border-box;
     width: 50vw;
     border: 5px solid rgb(0, 0, 0);
@@ -29,8 +32,6 @@
     background-color: rgb(98, 196, 68);
   } 
   body {
-    margin: auto;
-    display: block;
     max-width: 55vw;
     font-family: century-gothic, sans-serif;
     font-weight: 400;
@@ -39,12 +40,14 @@
     background-size: 720px auto;
   }
   h1 {
-    box-sizing: border-box;
+    display: block;
+    margin: auto;
     text-align: center;
     padding: 20px;
     background-color: rgb(0, 0, 0);
     color: white;
     width: 50vw;
+    box-sizing: border-box;
   }
   a:hover {
       color: white;
@@ -73,12 +76,18 @@
     right: 50px;
   }
   img {
+    display: block;
+    margin: 5px auto;
     box-sizing: border-box;
     border: 5px solid rgb(0, 0, 0);
     padding: 0px;
-    margin: 0[x];
     width: 50vw;
     height: auto;
+  }
+  @media screen and (max-width: 800px) {
+    .recipe-body, img, h1 {
+      width: 95vw;
+    }
   }
   </style>
   
