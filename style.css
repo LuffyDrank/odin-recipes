@@ -9,22 +9,18 @@
   width: 50vw;
   box-sizing: border-box;
 }
-.recipe-body-footer:hover {
-  width:26%;
-  height: 26%;
-}
 .donut-image {
   height: 70vh;
   object-fit: cover;
 }
  .border-list {
-  padding-left:40px;
+  padding: 0px 10px 0px 10px;
   background: rgb(102, 206, 71);
   border: 3px solid rgb(78, 168, 51);
   border-radius: 10px;
 }
 .border {
-  padding: 0px 20px;
+  padding: 0px 10px 0px 10px;
   background: rgb(102, 206, 71);
   border: 3px solid rgb(78, 168, 51);
   border-radius: 10px;
@@ -33,7 +29,7 @@
   display: block;
   margin: 5px auto;
   box-sizing: border-box;
-  width: 25vw;
+  width: 35vw;
   border: 5px solid rgb(0, 0, 0);
   padding: 15px;
   background-color: rgb(98, 196, 68);
@@ -48,12 +44,17 @@
   background-color: rgb(98, 196, 68);
 } 
 /*elements, etc*/
+.recipe-body-footer:hover {
+  width:36%;
+  height: 36%;
+}
 body {
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
   background: url('https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: 720px auto;
+  text-align: justify;
 }
 h1:hover {
   color: white
@@ -71,10 +72,12 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+ul, ol {
+  padding: 0px;
+}
 li { 
-  margin: 10px;
-  position: relative;
-  right: 50px;
+  margin:10px 0px;
+  list-style-position: inside;
 }
 img {
   display: block;
