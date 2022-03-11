@@ -2,20 +2,14 @@
 <html lang="en-es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Odin Recipes</title>
+  <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
   <style>
     .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border: 10px solid rgb(29, 58, 20);
-    margin: 0px;
-    padding: 0px;
-  }
+      margin: auto
+    }
   body {
     font-family: century-gothic, sans-serif;
     font-weight: 400;
@@ -25,20 +19,19 @@
     background-size: 720px auto;
   }
   h1 {
+    margin: auto;
+    box-sizing: border-box;
     border-radius: 10px;
     font-size: 35px;
     text-align: center;
     padding: 10px;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
-    width: 600px;
+    width: 50vw;
   }
   li:hover {
       color: rgb(255, 255, 255);
       font-size: 31px;   
-  }
-  h2 {
-    color:rgb(18, 49, 59);
   }
   a {
     color:rgb(12, 32, 39);
@@ -51,34 +44,31 @@
     padding: 0px;
   }
   li { 
+    box-sizing: border-box;
     font-size: 30px;
     border-radius: 5px;
-    width: 590px;
+    width: 50vw;
     border: 5px solid rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     list-style: none;
     background-color: rgb(98, 196, 68);
-    margin: 50px 0px;
-    display: grid;
+    margin: 50px auto;
+    display: block;
   }
-  img {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: 748px;
-    height: auto;
-  }
+  @media screen and (max-width: 800px) {
+        .center {
+          width: 90vw;
+        }
+      }
   </style>
 </head>
 <body>
-  <div class="center">
-  <h1>Odin Recipes</h1>
-  <ul>
+  <h1 class="center">Odin Recipes</h1>
+  <ul class="center">
     <a href="./recipes/tuna-salad.html"><li>Tuna salad</li></a>
     <a href="./recipes/donut.html"><li>Donut</li></a>
     <a href="./recipes/pizza.html"><li>Pizza</li></a>
   </ul>
-  </div>
 </body>
 </html>

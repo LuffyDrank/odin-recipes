@@ -1,0 +1,92 @@
+ /* Classes */
+ .header {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 50vw;
+  box-sizing: border-box;
+}
+.recipe-body-footer:hover {
+  width:26%;
+  height: 26%;
+}
+.donut-image {
+  height: 70vh;
+  object-fit: cover;
+}
+ .border-list {
+  padding-left:40px;
+  background: rgb(102, 206, 71);
+  border: 3px solid rgb(78, 168, 51);
+  border-radius: 10px;
+}
+.border {
+  padding: 0px 20px;
+  background: rgb(102, 206, 71);
+  border: 3px solid rgb(78, 168, 51);
+  border-radius: 10px;
+}
+.recipe-body-footer {
+  display: block;
+  margin: 5px auto;
+  box-sizing: border-box;
+  width: 25vw;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 15px;
+  background-color: rgb(98, 196, 68);
+}
+.recipe-body {
+  display: block;
+  margin: 5px auto;
+  box-sizing: border-box;
+  width: 50vw;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 0px 30px 30px;
+  background-color: rgb(98, 196, 68);
+} 
+/*elements, etc*/
+body {
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: url('https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: 720px auto;
+}
+h1:hover {
+  color: white
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color:rgb(18, 49, 59);
+  text-decoration: underline;
+}
+a {
+  display: block;
+  text-align: center;
+  color:rgb(12, 32, 39);
+  text-decoration: none;
+  font-weight: bold;
+}
+li { 
+  margin: 10px;
+  position: relative;
+  right: 50px;
+}
+img {
+  display: block;
+  margin: 5px auto;
+  box-sizing: border-box;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 0px;
+  width: 50vw;
+  height: auto;
+}
+@media screen and (max-width: 800px) {
+  .recipe-body, img, h1 {
+    width: 80vw;
+  }
+}
